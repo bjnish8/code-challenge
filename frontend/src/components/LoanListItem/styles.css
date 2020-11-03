@@ -1,0 +1,41 @@
+.detail-btn{
+    background: none;
+    outline: none;
+    border: none;
+    color: dodgerblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    margin-left: auto;
+}
+
+.loan-info{
+  display: flex;
+  color: dodgerblue;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.loan-item{
+  border-bottom: 1px solid gray;
+  font-size: 14px;
+  padding: 0px 20px;
+  color: dodgerblue;
+}
+
+.icon{
+  height: 24px;
+  width: 24px;
+  margin: 0px 10px 0px 0px;
+}
+
+.loan-info>p{
+  padding: 0px 10px 0px 0px;
+}
+
+.loan-details>p{
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}

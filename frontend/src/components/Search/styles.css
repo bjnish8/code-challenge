@@ -1,0 +1,45 @@
+.search-box>input{
+    padding: 10px;
+    min-width: 320px;
+    border: none;
+    outline: 1px solid dodgerblue;
+    margin: 20px;
+    font-size: 14px;
+}
+.search-box>input:focus{
+    outline: 2px solid dodgerblue;
+}
+
+.search-box>input::placeholder{
+    font-size: 12px;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.spinner{
+    position: absolute;
+    right: 25px;
+}
+
+.spinner:after {
+    content: " ";
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid dodgerblue;
+    border-color: dodgerblue transparent dodgerblue transparent;
+    animation: spinning 1.2s linear infinite;
+}
+@keyframes spinning {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
