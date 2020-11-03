@@ -21,6 +21,8 @@ Body parser is used to parse the JSON body of the requests.
 Used to simplify the process of returning error responses  
 - cors  
 To overcome cors issue if present.  
+- fuse.js
+To perform fuzzy search on loan records
 
 ### Endpoints:
 
